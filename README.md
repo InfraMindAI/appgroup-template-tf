@@ -1,2 +1,2 @@
 # appgroup-template-tf
-Template for application group
+Template for the application group Terraform repository. Read morea bout it [here](https://workingwiththecloud.com/blog/appgroup-template/).
