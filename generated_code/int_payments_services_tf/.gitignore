@@ -1,0 +1,9 @@
+*.iml
+.idea
+.vscode
+.DS_Store
+.terraform/
+*.tfstate*
+*.tfplan
+.terraform.lock.hcl
+.modules_tf

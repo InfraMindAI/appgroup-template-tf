@@ -1,0 +1,27 @@
+{
+  "process_name": "int-payments",
+  "short_name": "int-pay",
+  "service_name": "payment-analysis",
+  "is_es": "true",
+  "is_api": "true",
+  "is_sqs": "true",
+  "is_base_rds": "true",
+  "is_service_rds": "true",
+  "is_rds_secret": "true",
+  "is_apigw": "true",
+  "is_dynamo": "true",
+  "is_ecs_migration": "true",
+  "is_autoscaling": "true",
+  "ec_base": {
+    "create": "true",
+    "engine": "memcached"
+  },
+  "ec_service": {
+    "create": "true",
+    "engine": "redis"
+  },
+  "envs": "All",
+
+  "template_version": "0.0.2",
+  "parent_dir": "output"
+}
